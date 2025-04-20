@@ -102,12 +102,12 @@ function Register() {
                 />
               )}
 
-              <input
+              {/* <input
                 type="file"
-                accept="*/image"
+               
                 onChange={handleImageUpload}
                 className="bg-white mt-5 p-2 rounded"
-              />
+              /> */}
             </div>
           </div>
           <div className="items-center flex justify-center my-10">
