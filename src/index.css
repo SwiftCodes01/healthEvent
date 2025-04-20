@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+body {
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+.float-img {
+  animation-name: img-float;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes img-float {
+  from {
+    top: -200px;
+  }
+  to {
+    top: -100px;
+  }
+}
